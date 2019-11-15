@@ -16,9 +16,12 @@ class MainActivity : AppCompatActivity() {
         val message = edt.text.toString()
         //Toast.makeText(this, "Hi there $message", Toast.LENGTH_LONG).show()
         //img.setImageResource(R.drawable.cat2)
-        val intent = Intent(this, loadImage::class.java)
-        intent.putExtra("text", message)
-        startActivity(intent)
+        //val intent = Intent(this, loadImage::class.java)
+        //intent.putExtra("text", message)
+        //startActivity(intent)
+
+        img.animate().alpha(0.0F).setDuration(2000)
+
     }
 
 
