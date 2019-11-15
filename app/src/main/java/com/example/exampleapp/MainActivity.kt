@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         Log.i("Name", edt.text.toString())
         val message = edt.text.toString()
         Toast.makeText(this, "Hi there $message", Toast.LENGTH_LONG).show()
-
+        img.setImageResource(R.drawable.cat2)
     }
 
 
